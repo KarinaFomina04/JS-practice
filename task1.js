@@ -15,3 +15,6 @@ function third() {
 }
 
 first();
+
+
+console.log('Hello World');
