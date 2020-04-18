@@ -18,3 +18,21 @@ first();
 
 
 console.log('Hello World');
+
+console.log('Igor');
+
+const user = fetch('https://www.google.com/')
+  .then((res) => {
+    console.log(res.status);
+  });
+
+setTimeout(() => {
+  console.log('Ekaterina');
+}, 100);
+
+Promise.resolve('Ksenia').then(console.log);
+
+setTimeout(() => {
+  console.log('Olga');
+}, 500);
+```
